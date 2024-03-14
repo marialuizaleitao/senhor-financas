@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhor Finanças Despesas</title>
+    <link rel="stylesheet" href="./css/cadastroReceitas.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <script src="./js/receitas.js" defer></script>
+
+</head>
+
+<body>
+    <header class="lateral">
+        <img class="logo" src="./img/logo.jpg" alt="Logo da Impresa">
+        <h1>Gerenciador Financeiro</h1>
+        <!-- hr cria uma linha horizontal -->
+        <hr>
+        <section id="botoes-laterais">
+            <div class="botao-lateral">
+                <a href="./telaReceitas.html">
+                    <button class="botao-lateral" type="button">Receitas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./despesas.html">
+                    <button class="botao-lateral" type="button">Despesas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./relatorios.html">
+                    <button class="botao-lateral" type="button">Relatórios</button>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main class="principal">
+
+        <div class="input-group">
+            <body>
+                <section class="titulo">
+                    <h2>Cadastro de Receitas</h2>
+                </section>
+
+                <form action="#">
+                    <section class="text_box">
+                        <label for="descricao" >Descrição:</label>
+                        <input class="texto" type="text" id="descricao" name="descricao" required minlength="1">
+                    </section>
+                    <section class="text_box">
+                        <label for="data-receita" >Data da receita:</label>
+                        <input class="texto" type="date" id="data-receita" name="data">
+                    </section>
+                    <section class="text_box">
+                        <label for="valor" >Valor:</label>
+                        <input class="texto" type="number" id="valor" name="valor" required minlength="1">
+                    </section>
+                    <section class="botao2">
+                        <button class="botao" type="button" onclick="cadastrarReceita()"><strong>Cadastrar</strong></button>
+                    </section>
+                </form>
+            </body>
+            <footer>
+                <p>Desenvolvido por Vic e Malu</p>
+            </footer>
+        </div>
+
+    </main>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhor Finanças Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <script src="./js/usuario.js" defer></script>
+
+</head>
+<div id="centralizador">
+
+    <body>
+        <form action="#">
+            <section class="titulo">
+                <h1>Cadastro de novo Usuário</h1>
+                <p>Preencha as informações abaixo para criar sua conta Senhor Finanças</p>
+            </section>
+            <div class="input-group">
+                <section class="cadastro">
+                    <label for="nome">Nome:</label>
+                    <input class="cadastro-texto" type="text" id="nome" name="nome" required minlength="3">
+                </section>
+                <section class="cadastro">
+                    <label for="cpf">CPF:</label>
+                    <input class="cadastro-texto" type="number" id="cpf" name="CPF" required minlength="11" required
+                        maxlength="11">
+                </section>
+                <section class="cadastro">
+                    <label for="email">Email:</label>
+                    <input class="cadastro-texto" type="email" id="email" name="email" required minlength="3">
+                </section>
+                <section class="cadastro">
+                    <label for="data-nascimento">Data Nascimento:</label>
+                    <input class="cadastro-texto" type="date" id="data-nascimento" name="data-nascimento">
+                </section>
+                <section class="cadastro">
+                    <label for="login">Login:</label>
+                    <input class="cadastro-texto" type="text" id="login" name="login" required minlength="3">
+                </section>
+                <section class="cadastro">
+                    <label for="senha">Senha:</label>
+                    <input class="cadastro-texto" type="password" id="senha" name="senha" required minlength="3">
+                </section>
+            </div>
+            <section class="botao">
+                <button id="login-texto" type="button" onclick="cadastrarUsuario()"><strong>Cadastrar</strong></button>
+            </section>
+        </form>
+        <footer>
+            <p>Desenvolvido por Vic e Malu</p>
+        </footer>
+</div>
+
+</body>
+
+</html>

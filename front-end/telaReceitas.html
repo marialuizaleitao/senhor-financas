@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Senhor Finanças Receitas</title>
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="./css/telaReceitas.css">
+    <script src="./js/receitas.js" defer></script>
+
+</head>
+
+<body>
+    <header class="lateral">
+        <img class="logo" src="./img/logo.jpg" alt="Logo da Impresa">
+        <h1>Gerenciador Financeiro</h1>
+        <!-- hr cria uma linha horizontal -->
+        <hr>
+        <section id="botoes-laterais">
+            <div class="botao-lateral">
+                <a href="./telaReceitas.html">
+                    <button class="botao-lateral" type="button">Receitas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./despesas.html">
+                    <button class="botao-lateral" type="button">Despesas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./relatorios.html">
+                    <button class="botao-lateral" type="button">Relatórios</button>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main class="principal">
+        <h2>Receitas</h2>
+        <section id="tabela">
+            <table>
+                <thead>
+                    <tr class="borda-tabela">
+                        <th>Id</th>
+                        <th>Descrição</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="meio-tabela">
+
+                </tbody>
+                <tfoot>
+                    <td></td>
+                    <td></td>
+                    <td id="total">Total-</td>
+                    <td></td>
+                    <td></td>
+                </tfoot>
+            </table>
+            <div class="botoes">
+                <section class="botao">
+                    <button id="botao" type="button" onclick="listarReceitas()"><strong>Buscar</strong></button>
+                </section>
+                <section class="botao">
+                    <button id="botao" type="button" onclick="limpar()"><strong>Limpar</strong></button>
+                </section>
+                <section class="botao">
+                    <a href="./cadastroReceitas.html">
+                        <button id="botao" type="submit"><strong>Cadastrar</strong></button>
+                    </a>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

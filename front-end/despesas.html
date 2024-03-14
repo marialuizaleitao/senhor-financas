@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhor Finanças Despesas</title>
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="./css/despesas.css">
+    <script src="./js/despesas.js" defer></script>
+
+</head>
+
+<body>
+    <header class="lateral">
+        <img class="logo" src="./img/logo.jpg" alt="Logo da Impresa">
+        <h1>Gerenciador Financeiro</h1>
+        <!-- hr cria uma linha horizontal -->
+        <hr>
+        <section id="botoes-laterais">
+            <div class="botao-lateral">
+                <a href="./telaReceitas.html">
+                    <button class="botao-lateral" type="button">Receitas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./despesas.html">
+                    <button class="botao-lateral" type="button">Despesas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./relatorios.html">
+                    <button class="botao-lateral" type="button">Relatórios</button>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main class="principal">
+
+        <section id="tabela">
+            <h2>Despesas</h2>
+            <table>
+                <thead>
+                    <tr class="borda-tabela">
+                        <th>Id</th>
+                        <th>Descrição</th>
+                        <th>Data Vencimento</th>
+                        <th>Data Pagamento</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="meio-tabela">
+                    <!-- <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <section class="botao">
+                                <button type="alter"><strong>Editar</strong></button>
+                                <button type="alter"><strong>Excluir</strong></button>
+                            </section>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <section class="botao">
+                                <button type="alter"><strong>Editar</strong></button>
+                                <button type="alter"><strong>Excluir</strong></button>
+                            </section>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <section class="botao">
+                                <button id="botao" type="alter"><strong>Editar</strong></button>
+                                <button id="botao" type="alter"><strong>Excluir</strong></button>
+                            </section>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <section class="botao">
+                                <button id="botao" type="alter"><strong>Editar</strong></button>
+                                <button id="botao" type="alter"><strong>Excluir</strong></button>
+                            </section>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <section class="botao">
+                                <button id="botao" type="alter"><strong>Editar</strong></button>
+                                <button id="botao" type="alter"><strong>Excluir</strong></button>
+                            </section>
+                        </td>
+                    </tr>
+                <tfoot class="borda-tabela">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total- R$ </td>
+                        <td></td>
+                    </tr>
+                </tfoot> -->
+                <tfoot>
+                    <td></td>
+                    <td></td>
+                    <td id="total">Total- </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tfoot>
+                </tbody>
+            </table>
+            <div class="botoes">
+                <section class="botao">
+                    <button type="button" onclick="listarDespesas()"><strong>Buscar</strong></button>
+                </section>
+                <section class="botao">
+                    <button type="button" onclick="limpar()"><strong>Limpar</strong></button>
+                </section>
+                <section class="botao">
+                    <a href="/cadastroDespesas.html">
+                        <button type="button"><strong>Cadastrar</strong></button>
+                    </a>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

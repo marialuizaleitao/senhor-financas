@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lato:wght@700&display=swap");
+
+
+
+:root {
+    --fonte-titulo: "Lato", sans-serif;
+    --fonte-texto: "Kalam", cursive;
+    --cor-principal: #112D4E;
+    --cor-secundaria: #3F72AF;
+    --cor-tercearia: #DBE2EF;
+    --cor-fonte: #F9F7F7;
+    --cor-preto: #000000;
+    --cor-fundo: linear-gradient(to bottom, var(--cor-secundaria), 70%, var(--cor-principal));
+    /* degrade ocupa toda tela */
+    height: 100%;
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+/* LATERAL */
+
+.lateral {
+    width: 20%;
+    height: 100vh;
+    color: var(--cor-fonte);
+    text-align: center;
+    position: fixed;
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    border: 2px solid var(--cor-preto);
+}
+
+/*logo dentro da área lateral */
+.logo {
+    margin: 15px 0px;
+    padding-top: 15px;
+    height: 22%;
+}
+
+/*título dentro da área lateral */
+.lateral h1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: var(--cor-fonte-branco);
+    font-size: 1.2rem;
+    font-family: var(--fonte-titulo);
+}
+
+/*texto dentro da área lateral */
+.botao-lateral {
+    width: 100%;
+    background-color: #112D4E;
+    border: none;
+    color: #DBE2EF;
+    font-family: var(--fonte-texto);
+    font-size: large;
+    padding: 5%;
+}
+
+#botoes-laterais {
+    padding-top: 10%;
+}
+
+.botao-lateral button:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
+    transition: ease-in-out .3s;
+}
+
+
+hr {
+    margin: 5px 20px;
+    border-top: 3px solid var(--cor-tercearia);
+    margin-bottom: 1vh;
+}
+
+.principal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: var(--fonte-titulo);
+    padding-left: 20%;
+}
+
+/* grupo de inputs */
+.input-group {
+    padding-right: 20%;
+    height: 20%;
+}
+
+/* subtítulo dentro da área principal */
+.principal h2 {
+    padding: 40px;
+    padding-left: 30%;
+    padding-bottom: 50px;
+}
+
+/* botões */
+.botao {
+    color: #000000;
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+    font-family: var(--fonte-texto);
+   
+}
+
+/*hover dos botões */
+.botao2 button:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
+    transition: ease-in-out .3s;
+}
+
+.botao2 {
+    justify-content: center;
+    padding-left: 26%;
+    color: #000000;
+    border-radius: 5px;
+    width: 500px;
+    margin: 40px 0px;
+    height: 40px;
+    font-family: var(--fonte-texto);
+    margin-right: 17px;
+}
+
+/*caixa de texto */
+.text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 175px;
+    font-family: var(--fonte-texto);
+}
+
+
+.texto {
+    border: 2px solid;
+}
+
+
+label {
+    margin-bottom: -10px;
+    color: var(--cor-fonte);
+}
+
+
+input {
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    margin: 10px 0px;
+    height: 35px;
+    font-family: var(--fonte-texto);
+}
+
+/* rodapé da página */
+footer {
+    padding-left: 23%;
+    position: fixed;
+    bottom: 5%;
+    font-family: var(--fonte-texto);
+}

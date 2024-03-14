@@ -1,0 +1,210 @@
+ @import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lato:wght@700&display=swap");
+
+ :root {
+     --fonte-titulo: "Lato", sans-serif;
+     --fonte-texto: "Kalam", cursive;
+     --cor-principal: #112D4E;
+     --cor-secundaria: #3F72AF;
+     --cor-tercearia: #DBE2EF;
+     --cor-fonte: #F9F7F7;
+     --cor-preto: #000000;
+     --cor-hover: #535353;
+     --cor-fundo: linear-gradient(to bottom, var(--cor-secundaria), 70%, var(--cor-principal));
+     /* degrade ocupa toda tela */
+     height: 100%;
+
+ }
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+
+ body {
+     background: var(--cor-fundo);
+     color: var(--cor-fonte);
+ }
+
+ /* LATERAL */
+
+ .lateral {
+     width: 20%;
+     height: 100vh;
+     color: var(--cor-fonte);
+     text-align: center;
+     position: fixed;
+     background-color: var(--cor-principal);
+     font-family: var(--fonte-texto);
+     border: 2px solid var(--cor-preto);
+
+ }
+
+ .logo {
+     margin: 15px 0px;
+     padding-top: 15px;
+     height: 22%;
+ }
+
+ .lateral h1 {
+     padding-top: 10%;
+     padding-bottom: 10%;
+     color: var(--cor-fonte-branco);
+     font-size: 1.2rem;
+     font-family: var(--fonte-titulo);
+
+
+
+ }
+
+ /*texto dentro da área lateral */
+ .botao-lateral {
+     width: 100%;
+     background-color: #112D4E;
+     border: none;
+     color: #DBE2EF;
+     font-family: var(--fonte-texto);
+     font-size: large;
+     padding: 5%;
+
+ }
+
+ #botoes-laterais {
+     padding-top: 15%;
+ }
+
+ .botao-lateral button:hover {
+     background-color: var(--cor-secundaria);
+     color: var(--cor-tercearia);
+     transition: ease-in-out .3s;
+ }
+
+
+ hr {
+     margin: 5px 20px;
+     border-top: 3px solid var(--cor-tercearia);
+     margin-bottom: 1vh;
+ }
+
+ /* PRINCIPAL */
+ .principal {
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     width: 100%;
+     padding-left: 22%;
+ }
+
+ #tabela {
+     width: 76vw;
+ }
+
+ .principal h2 {
+     padding: 30px;
+     padding-right: 20px;
+     font-size: 1.7rem;
+     font-family: var(--fonte-titulo);
+     height: 30%;
+     padding-left: 10px;
+ }
+
+
+ #meio-tabela {
+     font-family: var(--fonte-texto);
+     color: var(--cor-preto);
+     font-size: small;
+     font-weight: bolder;
+ }
+
+ #meio-tabela button {
+     color: black;
+     font-family: var(--fonte-texto);
+     font-weight: bold;
+     background-color: var(--cor-tercearia);
+     border-radius: 8px;
+     width: 100px;
+     margin: 12.5px 0px;
+     height: 30px;
+     margin-right: 17px;
+     border: 2px solid black;
+ }
+
+ .borda-tabela {
+     background-color: var(--cor-principal);
+     text-align: center;
+     font-size: small;
+     height: 3.5vh;
+     font-family: var(--fonte-titulo);
+ }
+
+ .borda-tabela th {
+     text-align: center;
+ }
+
+ table {
+     border-collapse: collapse;
+     width: 100%;
+     border: 1px solid var(--cor-preto);
+     background-color: var(--cor-fonte);
+ }
+
+ tbody tr:nth-child(odd) {
+     background-color: var(--cor-tercearia);
+ }
+
+ tbody tr:nth-child(even) {
+     background-color: var(--cor-fonte);
+ }
+
+ td {
+     text-align: center;
+     padding-left: 50px;
+ }
+
+
+ tfoot {
+     background-color: var(--cor-principal);
+     text-align: center;
+     font-size: small;
+     height: 3.5vh;
+     font-family: var(--fonte-titulo);
+ }
+
+ .botao button {
+     color: #000000;
+     border-radius: 5px;
+     width: 100px;
+     margin: 20px 0px;
+     height: 30px;
+     font-family: var(--fonte-texto);
+     margin-right: 17px;
+
+ }
+
+
+ .botao button:hover {
+     background-color: var(--cor-secundaria);
+     color: var(--cor-tercearia);
+     transition: ease-in-out .3s;
+ }
+
+ .botoes .botao {
+     display: inline-block;
+     color: var(--cor-tercearia);
+ }
+
+ tbody tr:nth-child(odd) {
+     background-color: var(--cor-tercearia);
+ }
+
+ tbody tr:nth-child(even) {
+     background-color: var(--cor-fonte);
+ }
+
+ td {
+     text-align: center;
+     font-weight: bolder;
+
+ }

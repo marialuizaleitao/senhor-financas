@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./IMG/logo.jpg">
+    <link rel="stylesheet" href="./css/relatorios.css">
+    <title>Senhor Finanças</title>
+    <link rel="icon" href="./img/logo.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/relatorio.js" defer></script>
+</head>
+
+<body>
+
+
+    <header class="lateral">
+        <img class="logo" src="./img/logo.jpg" alt="Logo da Impresa">
+        <h1>Gerenciador Financeiro</h1>
+        <!-- hr cria uma linha horizontal -->
+        <hr>
+        <section id="botoes-laterais">
+            <div class="botao-lateral">
+                <a href="./telaReceitas.html">
+                    <button class="botao-lateral" type="button">Receitas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./despesas.html">
+                    <button class="botao-lateral" type="button">Despesas</button>
+                </a>
+            </div>
+            <div class="botao-lateral">
+                <a href="./relatorios.html">
+                    <button class="botao-lateral" type="button">Relatórios</button>
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <!--      *  Principal **     -->
+    <main class="principal">
+        <section>
+            <h1>Relatórios</h1>
+        </section>
+        <section >
+            <form action="">
+                <div class="campo-botao">
+                    <div>
+                        <label for="ano">Ano:</label>
+                        <input class="ano" type="number" id="ano" name="ano" required minlength="4" maxlength="4">
+                    </div>
+                    <div>
+                        <button class="botao" type="button" onclick="gerarRelatorio()">Gerar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <div id="area">
+                <canvas id="ctx1"></canvas>
+            </div>
+        </section>
+        <!-- <section class="titulo_principal">
+            <h1>Relatórios</h1>
+        </section>
+        <div>
+            <form class="formulario-relatorio" data-formulario>
+                <fieldset id="ano">
+                    <label for="ano">Ano: </label>
+                    <input type="text" id="ano" name="ano" minlength="4" required/>    
+                </fieldset>
+                <fieldset class="botao-relatorio">
+                    <input type="submit" id="gerar" value="Gerar"/>    
+                </fieldset>
+            </form> 
+        </div>
+        <div id="area">
+            <canvas id="grafico"></canvas>
+        </div> -->
+    </main>
+</body>
+
+</html>

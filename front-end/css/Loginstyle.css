@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lato:wght@700&display=swap");
+
+:root {
+    --fonte-titulo: "Lato", sans-serif;
+    --fonte-texto: "Kalam", cursive;
+    --cor-principal: #112D4E;
+    --cor-secundaria: #3F72AF;
+    --cor-tercearia: #DBE2EF;
+    --cor-fonte: #F9F7F7;
+    --cor-preto: #000000;
+    --cor-fundo: linear-gradient(to bottom, var(--cor-secundaria), 70%, var(--cor-principal));
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-fonte);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    position: fixed;
+    bottom: 5%;
+    font-family: var(--fonte-texto);
+}
+
+#centralizador {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 175px;
+    font-family: var(--fonte-texto);
+}
+
+.login-texto{
+    border: 2px solid;
+}
+
+label {
+    margin-bottom: -10px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    margin: 10px 0px;
+    height: 30px;
+    font-family: var(--fonte-texto);
+}
+
+.botao button {
+    color: #000000;
+    border-radius: 5px;
+    width: 280px;
+    margin: 20px 0px;
+    height: 30px;
+    font-family: var(--fonte-texto);
+    margin-right: 17px;
+}
+
+.botao button:hover {
+    background-color: var(--cor-secundaria);
+    transition: ease-in-out .3s;
+}
+
+.titulo {
+    padding: 60px 0px;
+    font-family: var(--fonte-texto);
+}
+
+.titulo h1 {
+    font-size: 280%;
+    font-family: var(--fonte-titulo);
+}
+
+
+.criarConta {
+    color: var(--cor-fonte);
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+}

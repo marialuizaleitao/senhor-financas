@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Lato:wght@700&display=swap");
+
+:root {
+    --fonte-titulo: "Lato", sans-serif;
+    --fonte-texto: "Kalam", cursive;
+    --cor-principal: #112D4E;
+    --cor-secundaria: #3F72AF;
+    --cor-tercearia: #DBE2EF;
+    --cor-fonte: #F9F7F7;
+    --cor-preto: #000000;
+    --cor-hover: #535353;
+    --cor-fundo: linear-gradient(to bottom, var(--cor-secundaria), 70%, var(--cor-principal));
+    height: 100%;
+    /* Altura da tela inteira */
+}
+
+/* elementos padrão */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+
+
+.lateral {
+    width: 20%;
+    height: 100vh;
+    color: var(--cor-fonte);
+    text-align: center;
+    position: fixed;
+    /* Fixa a lateral na tela */
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    border: 2px solid var(--cor-preto);
+}
+
+/* Estilos para a logo dentro da área lateral */
+.logo {
+    margin: 15px 0px;
+    /* Margem superior e inferior de 15px, margem lateral de 0px */
+    padding-top: 15px;
+    /* Preenchimento superior de 15px */
+    height: 22%;
+}
+
+/* Estilos para o título dentro da área lateral */
+.lateral h1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1.2rem;
+    font-family: var(--fonte-titulo);
+}
+
+/*texto dentro da área lateral */
+.botao-lateral {
+    width: 100%;
+    background-color: #112D4E;
+    border: none;
+    color: #DBE2EF;
+    font-family: var(--fonte-texto);
+    font-size: large;
+    padding: 5%;
+
+}
+
+#botoes-laterais {
+    padding-top: 15%;
+}
+
+.botao-lateral button:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
+    transition: ease-in-out .3s;
+}
+
+
+/* Estilos para a linha horizontal */
+hr {
+    margin: 5px 20px;
+    border-top: 3px solid var(--cor-tercearia);
+    margin-bottom: 1vh;
+}
+
+/* Estilos para a área principal da página */
+.principal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: var(--fonte-titulo);
+    padding-left: 20%;
+}
+
+/* título dentro da área principal */
+.principal h2 {
+    font-family: var(--fonte-titulo);
+    padding-bottom: 60px;
+}
+
+/* tamanho tabela */
+#tabela {
+    height: 90%;
+    width: 97%;
+}
+
+/* tabela em si */
+table {
+    border-collapse: collapse;
+    background-color: var(--cor-fonte);
+    font-size: 1.5rem;
+    border: 1px solid var(--cor-preto);
+    width: 100%;
+}
+
+/* células da tabela */
+#meio-tabela {
+    font-family: var(--fonte-texto);
+    color: var(--cor-preto);
+    font-size: small;
+}
+
+/*células com borda na tabela */
+.borda-tabela {
+    background-color: var(--cor-principal);
+    text-align: center;
+    font-size: small;
+    height: 3.5vh;
+}
+
+/* células de cabeçalho da tabela */
+.borda-tabela th {
+    text-align: center;
+}
+
+/*rodapé da tabela */
+tfoot tr {
+    background-color: var(--cor-principal);
+    text-align: center;
+    font-size: small;
+    height: 3.5vh;
+    width: 100%;
+}
+
+/* estilizando botões */
+.botao button {
+    color: #000000;
+    border-radius: 5px;
+    width: 100px;
+    margin: 20px 0px;
+    height: 30px;
+    font-family: var(--fonte-texto);
+    margin-right: 17px;
+}
+
+#meio-tabela {
+    font-family: var(--fonte-texto);
+    color: var(--cor-preto);
+    font-size: small;
+    font-weight: bolder;
+}
+
+#meio-tabela button {
+    color: black;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    background-color: var(--cor-tercearia);
+    border-radius: 8px;
+    width: 100px;
+    margin: 12.5px 0px;
+    height: 30px;
+    margin-right: 17px;
+    border: 2px solid black;
+}
+
+/*hover dos botões */
+.botao button:hover {
+    background-color: var(--cor-secundaria);
+    transition: ease-in-out .3s;
+}
+
+/* botões dentro da classe .botoes */
+.botoes .botao {
+    display: inline-block;
+    color: var(--cor-tercearia);
+}
+
+/* linhas ímpares na tabela */
+tbody tr:nth-child(odd) {
+    background-color: var(--cor-tercearia);
+}
+
+/*  linhas pares na tabela */
+tbody tr:nth-child(even) {
+    background-color: var(--cor-fonte);
+}
+
+/*células da tabela */
+td {
+    text-align: center;
+}

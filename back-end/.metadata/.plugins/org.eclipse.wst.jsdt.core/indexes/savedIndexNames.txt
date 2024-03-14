@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\Users\Kleiton\OneDrive\Documentos\SENAC\senhor-financas\back-end\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3792261339.index
+1231084337.index
+2416150773.index
+4210637317.index
