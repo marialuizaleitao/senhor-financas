@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="C:\Users\Maria\Documents\SENAC\IP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre" stamp="1669937564000"/>
-    <entry loc="C:\Users\Maria\Documents\SENAC\IP\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933" stamp="1669937564000"/>
+    <entry loc="C:\Users\Maria\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047" stamp="1701048425358"/>
+    <entry loc="C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858" stamp="1708801096176"/>
+    <entry loc="C:\Users\Maria\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre" stamp="1701048564277"/>
+    <entry loc="C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre" stamp="1708801094876"/>
+    <entry loc="C:\Program Files\Java\jdk-21" stamp="1708236937065"/>
+    <entry loc="C:\Program Files\Java\jdk-19" stamp="1678793492721"/>
 </dirs>
