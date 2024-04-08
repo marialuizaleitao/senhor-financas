@@ -27,7 +27,7 @@ O projeto foi desenvolvido com base nos seguintes critérios:
 ## Tecnologias Utilizadas
 
 - HTML, CSS e JavaScript para o front-end
-- PHP para o back-end
+- Java para o back-end
 - Banco de dados MySQL para armazenamento de dados
 
 ## Capacidades do Sistema
