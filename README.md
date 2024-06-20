@@ -1,6 +1,6 @@
 # Controle de Finanças - Projeto de Conclusão de Semestre 2023.2
 
-Este é um projeto desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas, nas disciplinas de Desenvolvimento Web e Programação Orientada a Objetos, ministradas pelo professor Adriano de Melo e feito em colaboração com [Victoria Fernandes](https://github.com/fernandesvictoria).
+Este é um projeto desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas, nas disciplinas de Desenvolvimento Web e Programação Orientada a Objetos, ministradas pelo professor Adriano de Melo e feito em colaboração com [Maria Leitão](https://github.com/marialuizaleitao).
 
 ## Sobre o Projeto
 
